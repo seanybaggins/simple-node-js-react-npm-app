@@ -26,5 +26,10 @@ pipeline {
                 sh './jenkins/scripts/kill.sh'
             }
         }
+        stage('Hi') {
+            steps {
+                echo "Hi :)"
+            }
+        }
     }
 }
